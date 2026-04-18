@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-slate-900 font-sans antialiased;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .stroke-dasharray-24 {
+    stroke-dasharray: 24;
+  }
+  .stroke-dashoffset-24 {
+    stroke-dashoffset: 24;
+  }
+  .stroke-dashoffset-0 {
+    stroke-dashoffset: 0;
+  }
+}
